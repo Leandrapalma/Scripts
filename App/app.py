@@ -11,6 +11,7 @@ st.sidebar.header("Season")
 selected_season = st.sidebar.selectbox('Season',['2022/2021', '2021/2020', '2020/2019'])
 
 #Webscraping Football Data
+data_jogos = pd.read_csv(f'https://github.com/futpythontrader/YouTube/blob/main/Jogos_do_Dia_Betfair/{dia}_Jogos_do_Dia.csv?raw=true')
 
 # def load_data(league, season):
       
