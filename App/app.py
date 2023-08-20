@@ -39,6 +39,6 @@ selected_season = st.sidebar.selectbox('Season',['2022/2021', '2021/2020', '2020
 # df = load_data(selected_league, selected_season)
 
 st.subheader("Dataframe: "+selected_league)
-st.dataframe(df)
+# st.dataframe(df)
 
                   
